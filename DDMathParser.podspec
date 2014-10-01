@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
 
-  s.source = { :git => "https://github.com/davedelong/DDMathParser.git", :commit => "ecc0b7320f599d0d2e7a5d60bfd8c3865e1ba8ec" }
+  s.source = { :git => "https://github.com/buscarini/DDMathParser.git", :tag => "1.0.0" }
 
   s.source_files = 'DDMathParser/*.{h,m}'
   s.requires_arc = true
